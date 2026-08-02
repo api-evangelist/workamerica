@@ -1,7 +1,23 @@
 aid: workamerica
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workamerica.png
 name: WorkAmerica
-description: WorkAmerica is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: WorkAmerica was a skilled-labor hiring marketplace that connected job seekers, employers,
+  and educators to close the skills gap - "connecting education to employment, exclusively for the
+  skilled labor force" (archived homepage, 2017). A 500 Global portfolio company, it appears defunct
+  - the workamerica.co domain expired (registrar suspension page captured December 2018) and now
+  301-redirects to an unrelated Indonesian website. No public API, developer portal, GitHub
+  organization, or packages were found.
 url: https://raw.githubusercontent.com/api-evangelist/workamerica/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Recruiting
+- Hiring
+- Skilled Labor
+- Employment
+- Education
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +43,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/workamerica-domain-security.yml
+- type: LLMsTxt
+  url: llms/workamerica-llms.txt
 - type: Website
   url: https://workamerica.co
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

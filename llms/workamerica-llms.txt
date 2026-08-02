@@ -1,0 +1,25 @@
+# WorkAmerica
+
+> WorkAmerica was a skilled-labor hiring marketplace that connected job seekers,
+> employers, and educators — "connecting education to employment, exclusively for
+> the skilled labor force" — with a mission of closing the skills gap. It was a
+> 500 Global (500 Startups) portfolio company. The company appears defunct: its
+> domain workamerica.co expired (a registrar suspension page was captured by the
+> Wayback Machine in December 2018) and as of July 2026 the domain 301-redirects
+> to an unrelated Indonesian website (legazy.co.id).
+
+This profile is maintained by the API Evangelist network as a venture-portfolio
+lead record. No public API, developer portal, SDKs, or machine-readable
+artifacts were found for this company.
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/workamerica/refs/heads/main/apis.yml): APIs.json index for WorkAmerica in the API Evangelist network
+- [Historical website (Wayback, July 2017)](https://web.archive.org/web/20170710063112/https://workamerica.co/): archived homepage from when the company was active
+
+## Status
+
+- No API surface: api./docs./developers. subdomains do not resolve; no OpenAPI, AsyncAPI, or GraphQL specs published
+- No GitHub organization found (workamerica / WorkAmerica / workamerica-co all 404)
+- No first-party packages on npm, PyPI, or RubyGems
+- Domain security posture recorded in the network repo under security/workamerica-domain-security.yml

@@ -1,0 +1,52 @@
+generated: '2026-07-21'
+method: probed
+source: live HTTP probes of workamerica.co
+note: >-
+  The workamerica.co domain lapsed (a Dec 2018 Wayback snapshot already shows a
+  registrar "domain expired" page) and every path now 301-redirects to
+  http://www.legazy.co.id/, an unrelated Indonesian site. No well-known files
+  are published by WorkAmerica itself; the 200s reachable after following the
+  redirect belong to the unrelated host and were NOT saved. /robots.txt returns
+  200 without redirecting but is Cloudflare's injected content-signals
+  boilerplate, not a company-authored file.
+host: workamerica.co
+paths:
+- path: /.well-known/security.txt
+  status: 301
+  redirect: http://www.legazy.co.id/.well-known/security.txt
+  file: null
+- path: /.well-known/openid-configuration
+  status: 301
+  redirect: http://www.legazy.co.id/.well-known/openid-configuration
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 301
+  redirect: http://www.legazy.co.id/.well-known/oauth-authorization-server
+  file: null
+- path: /.well-known/api-catalog
+  status: 301
+  redirect: http://www.legazy.co.id/.well-known/api-catalog
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 301
+  redirect: http://www.legazy.co.id/.well-known/ai-plugin.json
+  file: null
+- path: /llms.txt
+  status: 301
+  redirect: http://www.legazy.co.id/llms.txt
+  file: null
+- path: /robots.txt
+  status: 200
+  file: null
+  note: Cloudflare-injected content-signals boilerplate, not company-authored
+subdomains_probed:
+- host: api.workamerica.co
+  dns: none
+- host: docs.workamerica.co
+  dns: none
+- host: developers.workamerica.co
+  dns: none
+- host: developer.workamerica.co
+  dns: none
+- host: status.workamerica.co
+  dns: none
