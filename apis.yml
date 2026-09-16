@@ -18,19 +18,20 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://workamerica.co
+    status: 301
+    note: declared website redirects to https://legazy.co.id/ — a different registrable domain (workamerica.co
+      -> legazy.co.id), possible rename or acquisition (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://workamerica.co', status: 301, note: 'declared website redirects to https://legazy.co.id/ — a different registrable domain (workamerica.co -> legazy.co.id), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/workamerica.png
 name: WorkAmerica
 description: WorkAmerica was a skilled-labor hiring marketplace that connected job seekers, employers,
-  and educators to close the skills gap - "connecting education to employment, exclusively for the
-  skilled labor force" (archived homepage, 2017). A 500 Global portfolio company, it appears defunct
-  - the workamerica.co domain expired (registrar suspension page captured December 2018) and now
-  301-redirects to an unrelated Indonesian website. No public API, developer portal, GitHub
-  organization, or packages were found.
+  and educators to close the skills gap - "connecting education to employment, exclusively for the skilled
+  labor force" (archived homepage, 2017). A 500 Global portfolio company, it appears defunct - the workamerica.co
+  domain expired (registrar suspension page captured December 2018) and now 301-redirects to an unrelated
+  Indonesian website. No public API, developer portal, GitHub organization, or packages were found.
 url: https://raw.githubusercontent.com/api-evangelist/workamerica/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -40,7 +41,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-09-15'
 tags:
 - Company
 - Recruiting
@@ -67,3 +68,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 3
   pass: local-v1
+x-status: defunct
